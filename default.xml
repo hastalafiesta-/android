@@ -506,6 +506,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="ArchiDroid/Toolchain" remote="github" revision="architoolchain-4.9-arm-linux-gnueabihf-cortex_a9_neon" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" />
@@ -557,8 +558,8 @@
 
 <!-- D855 -->
 
-<project path="vendor/lge" name="sudosurootdev/vendor_lge" remote="github" revision="L51" />
-<project path="kernel/lge/g3" name="CyanogenMod/android_kernel_lge_g3" revision="cm-12.1" />
-<project path="device/lge/d855" name="CyanogenMod/android_device_lge_d855" revision="cm-12.1" />
-<project path="device/lge/g3-common" name="CyanogenMod/android_device_lge_g3-common" revision="cm-12.1" />
+<project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.1" />
+<project path="kernel/lge/g3" name="hastalafiesta/android_kernel_lge_g3" remote="github" revision="cm-12.1" />
+<project path="device/lge/d855" name="hastalafiesta/android_device_lge_d855"  remote="github"revision="cm-12.1" />
+<project path="device/lge/g3-common" name="hastalafiesta/android_device_lge_g3-common" remote="github" revision="cm-12.1" />
 </manifest>
