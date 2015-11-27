@@ -461,5 +461,6 @@
   <project path="device/samsung/janice" name="TeamCanjica/android_device_samsung_janice" revision="cm-11.0" />
   <project path="device/samsung/u8500-common" name="TeamCanjica/android_device_samsung_u8500-common" revision="cm-11.0" />
   <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" revision="cm-11.0" />
+  <project path="kernel/samsung/u8500" name="hastalafiesta/Samsung_STE_Kernel" remote="github" revision="master" />
   <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" revision="cm-11.0" />
 </manifest>
